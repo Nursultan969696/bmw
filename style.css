@@ -1,0 +1,108 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для header и nav */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Стили для hero-секции */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f2f2f2;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Стили для секции с продуктами */
+.products {
+    padding: 50px 0;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.product p {
+    color: #666;
+}
+
+
+.kkk{
+    text-align: center;
+    opacity: 1;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    width: 170px;
+    height: 220px;
+    transition: 0.5s ease-out;
+}
+
+.kkk:hover{
+    transition: 0.5s ease-out;
+    color:white;
+}
